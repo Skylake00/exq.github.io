@@ -9,8 +9,8 @@ nav {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(16px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding: 0 1rem;
     transition: all 0.3s ease;
@@ -18,8 +18,8 @@ nav {
 
 /* 滚动时导航栏样式 */
 nav.scrolled {
-    background: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur(25px);
+    background: rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(16px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
@@ -44,8 +44,10 @@ nav.scrolled {
 }
 
 .nav-logo img {
-    width: 87px;       /* 自定义合适宽度 */
-    height: auto;       /* 自动计算高度保持比例 */
+    width: 87px;
+    /* 自定义合适宽度 */
+    height: auto;
+    /* 自动计算高度保持比例 */
 }
 
 .nav-menu {
@@ -251,7 +253,7 @@ nav.scrolled {
 
     /* 调整小屏幕的页面内容 */
     .page {
-            padding-top: 45px;
+        padding-top: 45px;
     }
 }
 
